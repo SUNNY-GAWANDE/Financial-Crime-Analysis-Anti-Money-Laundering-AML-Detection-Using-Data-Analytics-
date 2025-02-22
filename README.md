@@ -1,10 +1,9 @@
-Financial Crime Analysis & Anti-Money Laundering (AML) Detection
+# Financial Crime Analysis & Anti-Money Laundering (AML) Detection
 
-Overview
-
+## Overview
 This project focuses on analyzing financial transaction data to identify potential financial crimes, including money laundering and tax evasion. Using data analytics and statistical techniques, we detect suspicious activities such as high-value transactions, irregular transaction patterns, and dormant accounts that have been reactivated. The insights generated can be used to enhance Anti-Money Laundering (AML) frameworks for financial institutions.
 
-Features
+## Features
 
 Transaction Analysis: Evaluates financial transactions to detect anomalies based on amount, frequency, and account activity.
 
@@ -14,11 +13,11 @@ High-Value & Suspicious Transactions: Flags transactions based on predefined thr
 
 Trade-Based Money Laundering (TBML) Indicators: Recognizes patterns that may indicate TBML schemes.
 
-Data & Methodology
+## Data & Methodology
 
-Data Source: Simulated transaction dataset containing account IDs, transaction dates, amounts, payment methods (cash/cheque), country, and other attributes.
+## Data Source: Simulated transaction dataset containing account IDs, transaction dates, amounts, payment methods (cash/cheque), country, and other attributes.
 
-Technologies Used:
+## Technologies Used:
 
 Python: Pandas, NumPy, Matplotlib, Seaborn
 
@@ -26,7 +25,7 @@ SQL (MySQL): Data querying and aggregation
 
 Jupyter Notebook: Exploratory Data Analysis (EDA) & visualization
 
-Analysis Steps:
+## Analysis Steps:
 
 Descriptive Statistics: Summarizing transactions by count, mean, standard deviation, and range.
 
@@ -36,7 +35,7 @@ Detection of Dormant Accounts: Identifies accounts with no transactions in Q1 bu
 
 Suspicious Transaction Detection: Flags large transactions and cross-border activities.
 
-Key Results
+## Key Results
 
 Detected a transaction of $25,000 in the Cayman Islands via Coinbase XCHNG, a potential red flag for cryptocurrency-based money laundering.
 
